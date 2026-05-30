@@ -152,6 +152,8 @@ sudo locale-gen
 sudo update-locale LANG=en_US.UTF-8
 
 export LANG=en_US.UTF-8
+
+echo 'export LANG=en_US.UTF-8' >> ~/.bashrc
 ```
 
 ### Create Python Build Environment

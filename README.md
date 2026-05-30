@@ -137,7 +137,9 @@ sudo apt install -y \
   libeigen3-dev \
   libsqlite3-dev \
   libfmt-dev \
-  libspdlog-dev
+  libspdlog-dev \
+  pkg-config \
+  liblttng-ust-dev
 ```
 
 ### Configure Locale

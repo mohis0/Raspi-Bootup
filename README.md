@@ -243,6 +243,8 @@ MAKEFLAGS="-j2" colcon build \
     ros2pkg \
     ros2run \
     ros2interface \
+    rclcpp \
+    std_msgs \
   --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 

@@ -176,7 +176,8 @@ python -m pip install \
   rosdistro \
   rospkg \
   empy \
-  lark
+  lark \
+  numpy
 ```
 
 ### Initialize rosdep

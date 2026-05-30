@@ -223,12 +223,6 @@ If `rosdep` tries to install a ROS binary package (e.g. `ros-jazzy-ros2param`), 
 ### Build ROS 2
 
 ```bash
-source ~/ros2_build_venv/bin/activate
-
-cd ~/ros2_jazzy_base
-```
-
-```bash
 cd ~/ros2_jazzy_base
 source ~/ros2_build_venv/bin/activate
 

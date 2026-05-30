@@ -229,8 +229,21 @@ cd ~/ros2_jazzy_base
 ```
 
 ```bash
+cd ~/ros2_jazzy_base
+source ~/ros2_build_venv/bin/activate
+
 MAKEFLAGS="-j2" colcon build \
   --symlink-install \
+  --packages-up-to \
+    ros2cli \
+    ros2node \
+    ros2topic \
+    ros2service \
+    ros2launch \
+    ros2param \
+    ros2pkg \
+    ros2run \
+    ros2interface \
   --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
